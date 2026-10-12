@@ -1,0 +1,97 @@
+@font-face {
+  font-family: VALORANT;
+  src: url(../fonts/VALORANT.ttf);
+}
+
+body {
+    background-color: #ECE8E3;
+    font-family: VALORANT,Arial, sans-serif;
+    color: #fffefc;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    color: #ec4944;
+}
+
+.question-box {
+    display: inline-block;
+    border: 3px solid #000000;
+    padding: 5px 35px;
+    margin: 15px;
+    background-color: #ec4944;
+    box-shadow: 0 4px 8px rgba(74, 64, 54, 0.15);
+}
+
+.question-box p {
+    font-size: 24px;
+    margin: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: white;
+    color: #860a0a;
+    border: 2px solid #0b0b0b;
+    padding: 12px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+button img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+button:hover {
+    background-color: #ec4944;
+}
+
+#message,
+#no-response {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 25px;
+}
+
+#no-response img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+.tiny-red {
+        position: absolute;
+        top: -20px;
+        right: 20px;
+        width: 18px;
+        height: 18px;
+        background: var(--accent);
+        z-index: 2;
+      }
+
+      .float-red {
+        position: absolute;
+        left: -18px;
+        top: 210px;
+        width: 18px;
+        height: 18px;
+        background: var(--accent);
+        z-index: 2;
+      }

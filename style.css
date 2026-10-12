@@ -1,0 +1,129 @@
+@font-face {
+  font-family: VALORANT;
+  src: url(../fonts/VALORANT.ttf);
+}
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: VALORANT, Arial, sans-serif;
+      background-color: #ECE8E3;
+    }
+
+    nav {
+      background-color: #930a0a;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-left {
+      display: flex;
+      gap: 50px;
+      flex: 1;
+    }
+
+    .nav-left a {
+      color: #030303;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      transition: color 0.3s;
+    }
+
+    .nav-left a:hover {
+      color: #fdfdfd;
+    }
+
+    .dropdown-arrow {
+      font-size: 12px;
+      color: #b7b4b4;
+    }
+
+    .nav-right {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .nav-right button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      color: #ffffff;
+      font-size: 18px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.3s;
+    }
+
+    .nav-right button:hover {
+      background-color: #333;
+    }
+hr{
+    border: 1px solid #000000;
+    color: #020202;
+}
+.mechanics-text h2 {
+  margin: 0 0 12px;
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #1f1f1f;
+}
+
+.mechanics-text p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: #1a1a1a;
+}
+.page {
+        width: 100%;
+        max-width: 1800px;
+        min-height: 100vh;
+        background: var(--bg);
+        padding: 80px 50px 40px 50px;
+      }
+.content {
+        display: grid;
+        grid-template-columns: 1.7fr 1fr;
+        align-items: center;
+        gap: 80px;
+        min-height: 760px;
+      }
+
+      .left {
+        padding-left: 10px;
+      }
+           .title {
+        font-size: clamp(5rem, 7vw, 11rem);
+        line-height: 0.82;
+        letter-spacing: -0.1em;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin: 0;
+        color: #0d1625;
+      }
+       .desc {
+        margin-top: 28px;
+        max-width: 760px;
+        font-size: clamp(1.15rem, 1.5vw, 2.15rem);
+        line-height: 1.35;
+        letter-spacing: -0.04em;
+        color: rgba(14, 23, 38, 0.95);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+      }
+
